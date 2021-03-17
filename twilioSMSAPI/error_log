@@ -1,0 +1,59 @@
+[20-Dec-2017 18:14:43 America/Chicago] PHP Fatal error:  Class 'Twilio\Rest\Client' not found in /home/manhunt/public_html/twilioSMSAPI/index.php on line 11
+[20-Dec-2017 18:20:24 America/Chicago] PHP Fatal error:  Class 'Twilio\Rest\Api\V2010\Account\MessageList' not found in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Rest/Api/V2010/AccountContext.php on line 292
+[20-Dec-2017 18:28:14 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number +94712201641 is not a valid phone number.' in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(69): Twilio\Version->create('POST', '/Accounts/AC702...', Array, Array)
+#2 /home/manhunt/public_html/twilioSMSAPI/index.php(23): Twilio\Rest\Api\V2010\Account\MessageList->create('+94712201641', Array)
+#3 {main}
+  thrown in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php on line 85
+[20-Dec-2017 18:38:39 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/manhunt/public_html/twilioSMSAPI/index.php on line 24
+[20-Dec-2017 18:46:13 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The From phone number +17032159344 is not a valid, SMS-capable inbound phone number or short code for your account.' in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(69): Twilio\Version->create('POST', '/Accounts/AC8b9...', Array, Array)
+#2 /home/manhunt/public_html/twilioSMSAPI/index.php(23): Twilio\Rest\Api\V2010\Account\MessageList->create('+94712201641', Array)
+#3 {main}
+  thrown in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php on line 85
+[20-Dec-2017 18:49:42 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The From phone number +94712201641 is not a valid, SMS-capable inbound phone number or short code for your account.' in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(69): Twilio\Version->create('POST', '/Accounts/AC8b9...', Array, Array)
+#2 /home/manhunt/public_html/twilioSMSAPI/index.php(23): Twilio\Rest\Api\V2010\Account\MessageList->create('+94712201641', Array)
+#3 {main}
+  thrown in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php on line 85
+[20-Dec-2017 18:49:50 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The From phone number +94712201641 is not a valid, SMS-capable inbound phone number or short code for your account.' in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(69): Twilio\Version->create('POST', '/Accounts/AC8b9...', Array, Array)
+#2 /home/manhunt/public_html/twilioSMSAPI/index.php(23): Twilio\Rest\Api\V2010\Account\MessageList->create('+94712201641', Array)
+#3 {main}
+  thrown in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php on line 85
+[20-Dec-2017 18:50:29 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The From phone number +17032159344 is not a valid, SMS-capable inbound phone number or short code for your account.' in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(69): Twilio\Version->create('POST', '/Accounts/AC8b9...', Array, Array)
+#2 /home/manhunt/public_html/twilioSMSAPI/index.php(23): Twilio\Rest\Api\V2010\Account\MessageList->create('+94712201641', Array)
+#3 {main}
+  thrown in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php on line 85
+[21-Dec-2017 01:56:48 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +94712201641.' in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(69): Twilio\Version->create('POST', '/Accounts/AC1fa...', Array, Array)
+#2 /home/manhunt/public_html/twilioSMSAPI/index.php(23): Twilio\Rest\Api\V2010\Account\MessageList->create('+94712201641', Array)
+#3 {main}
+  thrown in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php on line 85
+[21-Dec-2017 02:00:20 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 401] Unable to create record: Authentication Error - invalid username' in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(69): Twilio\Version->create('POST', '/Accounts/PNc55...', Array, Array)
+#2 /home/manhunt/public_html/twilioSMSAPI/index.php(23): Twilio\Rest\Api\V2010\Account\MessageList->create('+94712201641', Array)
+#3 {main}
+  thrown in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php on line 85
+[21-Dec-2017 02:04:24 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +94712201641.' in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(69): Twilio\Version->create('POST', '/Accounts/AC1fa...', Array, Array)
+#2 /home/manhunt/public_html/twilioSMSAPI/index.php(23): Twilio\Rest\Api\V2010\Account\MessageList->create('+94712201641', Array)
+#3 {main}
+  thrown in /home/manhunt/public_html/twilioSMSAPI/vendor/twilio/sdk/Twilio/Version.php on line 85

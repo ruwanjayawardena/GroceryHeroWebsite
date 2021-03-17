@@ -1,0 +1,37 @@
+/* 
+    Created on : Feb 24, 2019, 11:17:33 AM
+    Author     : Ruwan Jayawardena
+*/
+
+
+
+body{
+	background-color: #f2f2f2;
+}
+
+.invalid-feedback {				
+	font-size: 1rem;
+	color: #fdfffa;
+	background-color: #d93232;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.form-signin .form-control:focus {
+	background-color: #061b22 !important;
+    border: 1px solid #061b22 !important;
+    color: #03bbf9 !important;
+}
+
+.form-signin .form-control {
+	color: white !important;
+    background-color: #061b22 !important;
+    border: 1px solid #061b22 !important;
+}
+.form-signin .form-control::placeholder{
+    color: lightgrey !important;
+	text-align: left;
+	font-size: 0.8rem;
+
+}
+

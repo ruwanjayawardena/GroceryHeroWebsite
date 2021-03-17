@@ -1,0 +1,103 @@
+/*#google_translate_element {
+  position: absolute;
+  bottom: calc(53px + 16px);
+  right: 16px!important;
+}*/
+.goog-te-menu2-item text{
+	color: rgb(179, 160, 190) !important;
+}
+.goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div {
+    color: #fdfdff !important;
+    background: #060606 !important;
+}
+
+.goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * {
+	font-family: Roboto, 'Open Sans', sans-serif !important;
+    font-size: medium !important;
+}
+
+.goog-te-gadget {
+	font-family: Roboto, 'Open Sans', sans-serif!important;
+	text-transform: uppercase;
+}/*
+*/
+.goog-te-gadget-simple  {
+	background-color: rgba(255, 255, 255, 0.01)!important;
+    border: 1px solid rgba(78, 79, 144, 0.35) !important;
+    padding: 10px!important;
+    border-radius: 2px!important;
+}
+.goog-te-gadget-simple .goog-te-menu-value span {
+	text-decoration: none !important;
+    color: #e8e7e8 !important;
+    font-size: 9pt;
+}
+
+a.goog-te-menu2-item {
+	background-color: black !important;
+	color: white !important;
+	/*padding: 4px;*/
+}
+
+/*
+.goog-te-menu2 {
+  max-width: 100%;
+}
+.goog-te-menu-value {
+  color: #fff !important;
+    &:before {
+    font-family: 'Material Icons';
+    content: "\E927";
+    margin-right: 16px;
+    font-size: 2rem;
+    vertical-align: -10px;
+  } 
+}
+.goog-te-menu-value span:nth-child(5) {
+  display:none;
+}
+.goog-te-menu-value span:nth-child(3) {
+  border:none!important;
+  font-family: 'Material Icons';
+  &:after {
+    font-family: 'Material Icons';
+    content: "\E5C5";
+    font-size: 1.5rem;
+    vertical-align: -6px;
+  }  
+}
+
+*/.goog-te-gadget-icon {
+    background-image: url(https://placehold.it/32) !important;
+    background-position: 0px 0px;
+    height: 32px!important;
+    width: 32px!important;
+    margin-right: 8px!important;
+    display: none;
+}/*
+/ ============ HIDE TOP BAR ============ */
+.goog-te-banner-frame.skiptranslate {display: none!important;} 
+body {top: 0px!important;}/*
+
+
+*/
+/*@media (max-width: 667px) {
+	#google_translate_element {
+		bottom: calc(100% - 50% - 53px);
+		left: 16px!important;
+		width: 100%!important;
+		goog-te-gadget {
+			width:100%!important;
+		}
+		.skiptranslate {
+			width:100%!important;			
+		}
+		.goog-te-gadget-simple {
+			width: calc(100% - 32px)!important;
+			text-align: center;
+		}	
+	}
+}*/
+
+
+
