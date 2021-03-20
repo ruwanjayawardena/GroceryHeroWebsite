@@ -334,6 +334,6 @@
 
 
         </script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3ZgLOLgrwrYnlZ36NfAAKgN0wy8lULEk&libraries=places"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=CODE&libraries=places"></script>
     </body>
 </html>
