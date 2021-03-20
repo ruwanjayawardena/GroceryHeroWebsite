@@ -302,7 +302,7 @@
 			}
 
 		</script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3ZgLOLgrwrYnlZ36NfAAKgN0wy8lULEk&libraries=places&callback=initAutocomplete"
+		<script src="https://maps.googleapis.com/maps/api/js?key=CODE&libraries=places&callback=initAutocomplete"
 		async defer></script>
         <script>
 			function getUserInfoBySessionID() {
